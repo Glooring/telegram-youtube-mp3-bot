@@ -5,10 +5,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const path = require('path');
 
-// Set the environment variable to disable ytdl-core update check
-process.env.YTDL_NO_UPDATE = '1';
-
-// Replace with your own bot token
+// Use environment variables
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
