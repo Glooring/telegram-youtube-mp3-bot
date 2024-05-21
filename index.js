@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Replace with your own bot token
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = 6557838861:AAH3fruwvkcwNpKghpBpo21LNs0toY9Rf1Y;
 const bot = new TelegramBot(token, { polling: true });
 
 // Function to sanitize filenames
