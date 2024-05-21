@@ -9,7 +9,7 @@ const path = require('path');
 process.env.YTDL_NO_UPDATE = '1';
 
 // Replace with your own bot token
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = process.env.TELEGRAM_BOT2_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 // Function to sanitize filenames
